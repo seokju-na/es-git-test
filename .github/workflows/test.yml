@@ -4,7 +4,7 @@ on:
     branches:
       - "main"
 jobs:
-  linux-x64:
+  linux-x64-gnu:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
           corepack prepare --activate
       - run: yarn install
       - run: node index.mjs
-  linux-arm64:
+  linux-arm64-gnu:
     runs-on: ubuntu-24.04-arm
     steps:
       - uses: actions/checkout@v4
