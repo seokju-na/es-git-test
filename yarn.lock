@@ -65,7 +65,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "es-git-test@workspace:."
   dependencies:
-    es-git: "npm:^0.2.0"
+    es-git: "npm:0.2.0"
   languageName: unknown
   linkType: soft
 
@@ -83,7 +83,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-git@npm:^0.2.0":
+"es-git@npm:0.2.0":
   version: 0.2.0
   resolution: "es-git@npm:0.2.0"
   dependencies:
