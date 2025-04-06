@@ -32,7 +32,7 @@ jobs:
           corepack prepare --activate
       - run: yarn install
       - run: node index.mjs
-  windows-x64:
+  win32-x64-msvc:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,7 +46,7 @@ jobs:
           corepack prepare --activate
       - run: yarn install
       - run: node index.mjs
-  macos-intel:
+  darwin-x64:
     runs-on: macos-13
     steps:
       - uses: actions/checkout@v4
@@ -60,7 +60,7 @@ jobs:
           corepack prepare --activate
       - run: yarn install
       - run: node index.mjs
-  macos-arm64:
+  darwin-arm64:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
