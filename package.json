@@ -1,0 +1,7 @@
+{
+  "name": "es-git-test",
+  "packageManager": "yarn@4.8.1",
+  "dependencies": {
+    "es-git": "^0.2.0"
+  }
+}
