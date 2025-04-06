@@ -1,4 +1,8 @@
 import { openRepository } from 'es-git';
+import fs from 'node:fs/promises';
+
+const dir = await fs.readdir('node_modules');
+console.log(JSON.stringify(dir, null, 2));
 
 const repo = await openRepository('.');
 
